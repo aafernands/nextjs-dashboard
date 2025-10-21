@@ -5,6 +5,9 @@ import styles from '@/app/ui/home.module.css';
 import { lusitana } from '@/app/ui/fonts';
 import Image from 'next/image';
 
+export const dynamic = 'force-dynamic'; // or:
+export const revalidate = 0;
+
 export default function Page() {
   return (
     <main className="flex bg-white-500 min-h-screen flex-col p-6">
